@@ -1,0 +1,9 @@
+process.env.PORT for setting the dynamic port according to server.
+
+mongoose.connect(process.env.MONGO_URL) for setting the mongodb url to connect DB.
+
+In package.json file you should have "scripts" object and inside "scripts" object there should be "start" key with value "node app.js",
+  it will look like `"start":"node app.js"`
+
+for AWS main file name should be "app.js"
+
